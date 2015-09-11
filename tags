@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FAILURE	utilities.h	/^    FAILURE = -1$/;"	e	enum:ReturnValueE
+FairFormatter	fair_formatter.h	/^class FairFormatter : public IFormatter$/;"	c
+IFormatter	iformatter.h	/^class IFormatter$/;"	c
+JCHECK_ERROR	utilities.h	75;"	d
+JCHECK_ERROR_ASSERT	utilities.h	79;"	d
+JCHECK_ERROR_MSG	utilities.h	84;"	d
+JCHECK_ERROR_MSG_ASSERT	utilities.h	87;"	d
+JCHECK_PERF_AND_ERROR	utilities.h	93;"	d
+LOG	utilities.h	26;"	d
+LOG_DBG	utilities.h	49;"	d
+LOG_ERR	utilities.h	41;"	d
+LOG_INFO	utilities.h	33;"	d
+LOG_PERF	utilities.h	57;"	d
+Parser	parser.h	/^class Parser$/;"	c
+ReturnValueE	utilities.h	/^enum ReturnValueE$/;"	g
+RowVector	parser.h	/^typedef vector< string > RowVector;$/;"	t
+RowVector	table.h	/^typedef vector< string > RowVector;$/;"	t
+SUCCESS	utilities.h	/^    SUCCESS = 0,$/;"	e	enum:ReturnValueE
+Table	table.h	/^        Table(TableVector& in_table, $/;"	f	class:Table
+Table	table.h	/^class Table$/;"	c
+TableVector	parser.h	/^typedef vector< RowVector > TableVector;$/;"	t
+TableVector	table.h	/^typedef vector< RowVector > TableVector;$/;"	t
+UnfairFormatter	unfair_formatter.h	/^class UnfairFormatter : public IFormatter$/;"	c
+__FAIR_FORMATTER__	fair_formatter.h	2;"	d
+__IFORMATTER__	iformatter.h	2;"	d
+__JUTILITIES__	utilities.h	20;"	d
+__PARSER__	parser.h	2;"	d
+__TABLE__	table.h	2;"	d
+__UNFAIR_FORMATTER__	unfair_formatter.h	2;"	d
+column	table.h	/^        unsigned int column;$/;"	m	class:Table
+column_width	table.h	/^        vector<unsigned int> column_width;$/;"	m	class:Table
+column_widths	table.cpp	/^Table::column_widths()$/;"	f	class:Table
+columns	table.cpp	/^Table::columns()$/;"	f	class:Table
+format_table	fair_formatter.cpp	/^FairFormatter::format_table(Table& table, char& vert_sep, char& horz_sep, char& joint_sep)$/;"	f	class:FairFormatter
+format_table	unfair_formatter.cpp	/^UnfairFormatter::format_table(Table& table, char& vert_sep, char& horz_sep, char& joint_sep)$/;"	f	class:UnfairFormatter
+formatter	table.h	/^        IFormatter *formatter;$/;"	m	class:Table
+get_column_width	table.h	/^        ReturnValueE get_column_width(const unsigned int & col,$/;"	f	class:Table
+get_columns	table.h	/^        ReturnValueE get_columns(unsigned int& col){ col = column; };$/;"	f	class:Table
+get_element	table.cpp	/^Table::get_element(unsigned int& row,$/;"	f	class:Table
+get_rows	table.h	/^        ReturnValueE get_rows(unsigned int& row){ row = table.size();};$/;"	f	class:Table
+horz_sep	table.h	/^        char vert_sep, horz_sep, joint_sep;$/;"	m	class:Table
+joint_sep	table.h	/^        char vert_sep, horz_sep, joint_sep;$/;"	m	class:Table
+logMutex	utilities.h	/^static pthread_mutex_t logMutex;$/;"	v
+log_timestamp_raw	utilities.h	/^static time_t log_timestamp_raw;$/;"	v
+main	main.cpp	/^int main(int argc, char** argv)$/;"	f
+operator =	table.cpp	/^Table::operator=(const Table& t)$/;"	f	class:Table
+parse_file	parser.cpp	/^Parser::parse_file(const string filename, $/;"	f	class:Parser
+parse_line	parser.cpp	/^Parser::parse_line(const string input_line,$/;"	f	class:Parser
+print_border	iformatter.cpp	/^IFormatter::print_border(Table& table, char horz_sep, char joint_sep)$/;"	f	class:IFormatter
+print_elements	iformatter.cpp	/^IFormatter::print_elements(Table& table, unsigned int row, char vert_sep)$/;"	f	class:IFormatter
+print_table	table.cpp	/^Table::print_table()$/;"	f	class:Table
+set_formatter	table.h	/^        ReturnValueE set_formatter(IFormatter*& f) {formatter = f;};$/;"	f	class:Table
+size	table.h	/^        int size() { table.size();};$/;"	f	class:Table
+table	table.h	/^        TableVector table;$/;"	m	class:Table
+timestamp	utilities.h	/^static string timestamp;$/;"	v
+vert_sep	table.h	/^        char vert_sep, horz_sep, joint_sep;$/;"	m	class:Table
