@@ -1,0 +1,56 @@
+\hypertarget{classTable}{}\section{Table Class Reference}
+\label{classTable}\index{Table@{Table}}
+
+
+Maintains the data structures required to generated a formatted table. It\textquotesingle{}s main function is to store the width of the columns.  
+
+
+
+
+{\ttfamily \#include $<$table.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classTable_abb5d65b9ea5f69211ac4233cc09a5520}{}{\bfseries Table} (Table\+Vector \&in\+\_\+table, \hyperlink{classIFormatter}{I\+Formatter} $\ast$\&f, char v\+\_\+sep= \textquotesingle{}$\vert$\textquotesingle{}, char h\+\_\+sep= \textquotesingle{}-\/\textquotesingle{}, char j\+\_\+sep= \textquotesingle{}+\textquotesingle{})\label{classTable_abb5d65b9ea5f69211ac4233cc09a5520}
+
+\item 
+\hypertarget{classTable_a6364ca2696a5c3d2957c21ddf5ceb57d}{}\hyperlink{classTable}{Table} {\bfseries operator=} (const \hyperlink{classTable}{Table} \&)\label{classTable_a6364ca2696a5c3d2957c21ddf5ceb57d}
+
+\item 
+\hypertarget{classTable_a8f90634e34d019046c9b746d1717c2b2}{}int \hyperlink{classTable_a8f90634e34d019046c9b746d1717c2b2}{size} ()\label{classTable_a8f90634e34d019046c9b746d1717c2b2}
+
+\begin{DoxyCompactList}\small\item\em Returns the size of the \hyperlink{classTable}{Table}. \end{DoxyCompactList}\item 
+\hypertarget{classTable_a2052e3562592455c8d8a1f9239467d30}{}Return\+Value\+E \hyperlink{classTable_a2052e3562592455c8d8a1f9239467d30}{columns} ()\label{classTable_a2052e3562592455c8d8a1f9239467d30}
+
+\begin{DoxyCompactList}\small\item\em Calculates the max number of columns in the table. \end{DoxyCompactList}\item 
+\hypertarget{classTable_a07ee370d2224be5780d5a2d31b729ed9}{}Return\+Value\+E \hyperlink{classTable_a07ee370d2224be5780d5a2d31b729ed9}{column\+\_\+widths} ()\label{classTable_a07ee370d2224be5780d5a2d31b729ed9}
+
+\begin{DoxyCompactList}\small\item\em Generates column widths and stores in a vector. \end{DoxyCompactList}\item 
+\hypertarget{classTable_a570d9a50965036c614d2328dde1dfe8e}{}Return\+Value\+E \hyperlink{classTable_a570d9a50965036c614d2328dde1dfe8e}{get\+\_\+columns} (unsigned int \&col)\label{classTable_a570d9a50965036c614d2328dde1dfe8e}
+
+\begin{DoxyCompactList}\small\item\em Returns the number of columns in the table. \end{DoxyCompactList}\item 
+\hypertarget{classTable_aecd59c6e6420a2833de9cd6dc3df5be8}{}Return\+Value\+E \hyperlink{classTable_aecd59c6e6420a2833de9cd6dc3df5be8}{get\+\_\+rows} (unsigned int \&row)\label{classTable_aecd59c6e6420a2833de9cd6dc3df5be8}
+
+\begin{DoxyCompactList}\small\item\em Returns the number of rows in the table. \end{DoxyCompactList}\item 
+\hypertarget{classTable_ad3cb46364300d9f97655e6d628333c43}{}Return\+Value\+E \hyperlink{classTable_ad3cb46364300d9f97655e6d628333c43}{get\+\_\+column\+\_\+width} (const unsigned int \&col, unsigned int \&col\+\_\+width)\label{classTable_ad3cb46364300d9f97655e6d628333c43}
+
+\begin{DoxyCompactList}\small\item\em Returns width of a specific column. \end{DoxyCompactList}\item 
+\hypertarget{classTable_a4b480f91c567559b09ffcca9b41b38cd}{}Return\+Value\+E \hyperlink{classTable_a4b480f91c567559b09ffcca9b41b38cd}{set\+\_\+formatter} (\hyperlink{classIFormatter}{I\+Formatter} $\ast$\&f)\label{classTable_a4b480f91c567559b09ffcca9b41b38cd}
+
+\begin{DoxyCompactList}\small\item\em Sets the formatter to be used. \end{DoxyCompactList}\item 
+\hypertarget{classTable_ad0da3c76a9efeded5081ac73e81fb282}{}Return\+Value\+E \hyperlink{classTable_ad0da3c76a9efeded5081ac73e81fb282}{get\+\_\+element} (unsigned int \&row, unsigned int \&col, string \&element)\label{classTable_ad0da3c76a9efeded5081ac73e81fb282}
+
+\begin{DoxyCompactList}\small\item\em Returns the element at the specified position. \end{DoxyCompactList}\item 
+\hypertarget{classTable_a6cd0418b59cf0e6e1552587e3d84a776}{}Return\+Value\+E \hyperlink{classTable_a6cd0418b59cf0e6e1552587e3d84a776}{print\+\_\+table} ()\label{classTable_a6cd0418b59cf0e6e1552587e3d84a776}
+
+\begin{DoxyCompactList}\small\item\em Prints the table using the Formatter specified. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Maintains the data structures required to generated a formatted table. It\textquotesingle{}s main function is to store the width of the columns. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+table.\+h\item 
+table.\+cpp\end{DoxyCompactItemize}

@@ -23,10 +23,11 @@ Parser::parse_file(const string filename,
             parsed_file.push_back(parsed_line);
     }
     
+    cout << "Parsed file:\n";
     for(int i = 0; i < parsed_file.size(); i++)
     {
         for(int j = 0; j < parsed_file[i].size(); j++)
-            cout << "\t" << parsed_file[i][j];
+            cout << "\n" << parsed_file[i][j];
         cout << endl;
     }
 
